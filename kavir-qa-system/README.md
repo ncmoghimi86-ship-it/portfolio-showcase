@@ -16,6 +16,7 @@ Enterprise document management system for the Quality Assurance department at Ka
 - Centralized repository for all QA documents
 - Version control and revision history
 - Master list management
+- Advanced search and filtering
 
 ### 🔄 Revision Control
 - Track document revisions and approvals
@@ -25,12 +26,22 @@ Enterprise document management system for the Quality Assurance department at Ka
 ### 📅 Quality Calendar
 - FullCalendar integration
 - Schedule and track quality events
-- Deadline reminders
+- Deadline reminders and notifications
 
-### 👥 Role-Based Access
+### 🔔 Notifications System
+- Real-time alerts for document updates
+- Revision deadlines
+- Approval requests
+
+### 🏢 Department & Role Management
 - Multi-level access control
 - Department, unit, and user-level permissions
 - Activity logging
+
+### 👤 User Profile
+- Personal information management
+- Role and permission overview
+- Activity history
 
 ---
 
@@ -52,20 +63,34 @@ Enterprise document management system for the Quality Assurance department at Ka
 
 ## 📸 Screenshots
 
-### QA Dashboard
-![QA Dashboard](./screenshots/01-dashboard.png)
+### 🔐 Login Page
+![Login](./screenshots/login.png)
 
-### Document Library
-![Document Library](./screenshots/02-library.png)
+### 🏠 Homepage / Dashboard
+![Homepage](./screenshots/homepage.png)
 
-### Master List
-![Master List](./screenshots/03-master-list.png)
+### 📄 Documents Management
+![Documents](./screenshots/documents.png)
 
-### Quality Calendar
-![Calendar](./screenshots/04-calendar.png)
+### 📋 Master List
+![Master List](./screenshots/masterlist.png)
+
+### 📅 Quality Calendar
+![Calendar](./screenshots/calendar.png)
+
+### 🏢 Department Management
+![Department](./screenshots/department.png)
+
+### 🔔 Notifications
+![Notifications](./screenshots/notifications.png)
+
+### 👤 User Profile
+![Profile](./screenshots/profile.png)
 
 ---
 
 ## 📌 Note
 
 Source code is **private** (proprietary to Kavir Motor Co.).
+
+For questions or demo access, contact: **nc.moghimi86@gmail.com**
