@@ -76,7 +76,7 @@ Enterprise document management system for the Quality Assurance department at Ka
 ![Master List](./screenshots/masterlist.png)
 
 ### 📅 Quality Calendar
-![Calendar](./screenshots/calendar.png)
+![Calendar](./screenshots/calender.png)
 
 ### 🏢 Department Management
 ![Department](./screenshots/department.png)
