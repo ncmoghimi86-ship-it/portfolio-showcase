@@ -61,22 +61,6 @@ Designed and developed from scratch as a solo project.
 
 ---
 
-## 📸 Screenshots
-
-### Homepage
-![Homepage](./screenshots/01-homepage.png)
-
-### Services Page
-![Services](./screenshots/02-services.png)
-
-### Admin Panel
-![Admin](./screenshots/03-admin.png)
-
-### AI Chatbot
-![Chatbot](./screenshots/04-chatbot.png)
-
----
-
 ## 🔗 Live Demo
 
 [https://rashanit.ir/](https://rashanit.ir/)
