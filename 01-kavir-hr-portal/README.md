@@ -65,20 +65,29 @@ A comprehensive HR management platform built end-to-end for Kavir Motor Co. — 
 
 ## 📸 Screenshots
 
-### Dashboard
-![Dashboard](./screenshots/01-dashboard.png)
+### 🔐 Login Page
+![Login](./screenshots/login.png)
 
-### Request Detail with Approvals
-![Request Detail](./screenshots/02-request-detail.png)
+### 📊 Main Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-### Role & Permission Management
-![Permissions](./screenshots/03-permissions.png)
+### 📋 Requests Management
+![Requests](./screenshots/requests.png)
 
-### Dynamic Form Builder
-![Form Builder](./screenshots/04-form-builder.png)
+### 🔐 Roles & Permissions
+![Permissions](./screenshots/permission.png)
 
-### Report Builder
-![Reports](./screenshots/05-reports.png)
+### 📈 Summary & Statistics
+![Summary](./screenshots/summary.png)
+
+### 📊 Reporting
+![Reporting](./screenshots/report.png)
+
+### 🏢 Departments & Units
+![Departments](./screenshots/department.png)
+
+### 👤 User Profile
+![Profile](./screenshots/myprofile.png)
 
 ---
 
@@ -94,4 +103,4 @@ A comprehensive HR management platform built end-to-end for Kavir Motor Co. — 
 
 Source code is **private** (proprietary to Kavir Motor Co.).
 
-For questions or demo access, contact: nc.moghimi86@gmail.com
+For questions or demo access, contact: **nc.moghimi86@gmail.com**
