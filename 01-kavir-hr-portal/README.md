@@ -1,46 +1,97 @@
-# 👩‍💻 Ensieh Moghimi — Portfolio
+# 🏢 Kavir Motor HR Portal
 
-Full-Stack Engineer specializing in enterprise web applications with **React**, **TypeScript**, and **.NET Core**.
-
-This repository showcases selected projects I've designed and developed. **Source code is private** (proprietary to my employer or clients), but screenshots, features, and technical details are provided for reference.
+**Enterprise Human Resources Management System**
 
 ---
 
-## 📋 Projects
+## 📌 Overview
 
-| # | Project | Stack | Type |
-|---|---|---|---|
-| 1 | [Kavir Motor HR Portal](./01-kavir-hr-portal/) | React + .NET 10 + SQL Server | Enterprise HR System |
-| 2 | [Kavir Motor QA System](./02-kavir-qa-system/) | ASP.NET Core + React | Document Lifecycle |
-| 3 | [Motorcycle Ownership Document System](./03-motorcycle-docs/) | ASP.NET Core + EF Core | Enterprise Workflow |
-| 4 | [Rashan — Corporate Website](./04-rashan/) | Next.js 16 + Prisma + MySQL | Corporate Platform |
+A comprehensive HR management platform built end-to-end for Kavir Motor Co. — designed, developed, and maintained solo. Handles the entire employee request lifecycle, from submission to HR validation, multi-level approval, and payment.
+
+---
+
+## ✨ Key Features
+
+### 🔐 Permission-Based Access Control
+- 47+ granular permissions across 16 modules
+- Dynamic role creation from the UI — no code changes needed
+- Real-time permission updates via 2-level cache invalidation
+
+### 📋 Dynamic Request Builder
+- 20+ field types (text, number, date, IBAN, national ID, dynamic tables, ...)
+- Custom form builder with validation rules
+- Configurable multi-level approval workflows
+
+### 💳 Payment Tracking
+- 4-state payment lifecycle (Pending / Scheduled / Paid / Cancelled)
+- Three separate views for finance: Pending, Scheduled, Paid
+- Real-time status updates across all dashboards
+
+### 📊 Real-Time Dashboards
+- Dynamic cards based on user permissions
+- Auto-refresh every 30 seconds
+- Version-based cache invalidation
+- 6 chart types: status, type, department, trend, payments, role distribution
+
+### 📢 Additional Modules
+- Targeted announcements (all / departments / units / users)
+- Dynamic surveys with aggregate + raw reports
+- Birthday message system with custom HR messages
+- Advanced report builder with dynamic columns
+- File attachments with visibility control
+- Excel export with multi-row merge
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Frontend:**
-- React 19, Next.js 16, TypeScript
-- Tailwind CSS, Vite
-- Zustand, Redux Toolkit
+- React 19, TypeScript, Vite
+- Tailwind CSS 4
+- Zustand (state management)
 - React Hook Form + Zod
+- Recharts (charts)
+- react-multi-date-picker (Persian calendar)
 
 **Backend:**
 - .NET 10, C#, ASP.NET Core
-- Entity Framework Core, Prisma
-- SQL Server, MySQL
-- JWT, REST APIs
+- Entity Framework Core 10
+- SQL Server
+- JWT + Refresh Token Rotation
+- BCrypt password hashing
+- ClosedXML (Excel export)
 
 ---
 
-## 📞 Contact
+## 📸 Screenshots
 
-- 🌐 GitHub: [@ncmoghimi86-ship-it](https://github.com/ncmoghimi86-ship-it)
-- 📧 Email: nc.moghimi86@gmail.com
-- 💼 LinkedIn: [nc-moghimi](https://www.linkedin.com/in/nc-moghimi-604228215/)
+### Dashboard
+![Dashboard](./screenshots/01-dashboard.png)
+
+### Request Detail with Approvals
+![Request Detail](./screenshots/02-request-detail.png)
+
+### Role & Permission Management
+![Permissions](./screenshots/03-permissions.png)
+
+### Dynamic Form Builder
+![Form Builder](./screenshots/04-form-builder.png)
+
+### Report Builder
+![Reports](./screenshots/05-reports.png)
 
 ---
 
-## ⚠️ Note
+## 📈 Scale
 
-All projects shown here are **proprietary**. Full source code is not publicly available. For inquiries about collaboration or custom development, feel free to reach out via email.
+- **18 controllers**, **20 entities**, **47 permissions**
+- Built to support **1000+ users** with optimized caching
+- Real-time updates across all user dashboards
+
+---
+
+## 📌 Note
+
+Source code is **private** (proprietary to Kavir Motor Co.).
+
+For questions or demo access, contact: nc.moghimi86@gmail.com
